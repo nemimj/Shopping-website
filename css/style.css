@@ -24,6 +24,10 @@ ul{
     margin: auto;
 }
 
+.price{
+    color: #db4566;
+}
+
 .m-2{
     margin:2rem;
 }
@@ -55,6 +59,7 @@ ul{
     display: inline-block;
     border: 1px solid #db4566;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .btn-pink{
@@ -115,8 +120,48 @@ ul{
 
 #products .items{
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+    flex-wrap: wrap;   
     justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
 }
 
+#products .items .item{
+   background-color: #eeeeee;
+   position: relative;
+   padding: 1rem;
+    min-width: 30%;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+#products .items .item .img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    height: 245px;
+}
+
+.img-box img{
+    max-height: 150px;
+}
+
+#products .items .item .detail-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#products .items .item .new{
+    position: absolute;
+    color: black;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
