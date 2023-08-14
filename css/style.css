@@ -8,6 +8,7 @@
 
 body{
     font-family: "poppins", sans-serif;
+    line-height: 1.6;
 }
 
 a{
@@ -32,6 +33,24 @@ ul{
     margin:2rem;
 }
 
+.same-container{
+    display: flex;
+    padding: 1.5rem 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    border-radius: 10px;
+}
+
+.same-container h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.bg-blue{
+    background-color: #7fd7eb;
+}
 .px-3{
     padding: 0 3rem;
 }
@@ -71,6 +90,18 @@ ul{
     color: #db4566;
 }
 
+.btn-light{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn-blue{
+    background-color: #109dbd;
+    border: 1px solid #109dbd;
+    margin-right: 1rem;
+}
+
 /* Navbar */
 
 .logo{
@@ -104,6 +135,7 @@ ul{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 1.5rem 3rem;
+
 }
 
 .showcase-content {
@@ -165,3 +197,8 @@ ul{
     justify-content: center;
     border-radius: 100%;
 }
+
+
+/* Section : Saving */
+
+
