@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+a{
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Utilty Class */
+.container{
+    width: 1350px;
+    margin: auto;
+}
+
+.m-2{
+    margin:2rem;
+}
+
+.px-3{
+    padding: 0 3rem;
+}
+
+.current{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.middle-heading{
+    margin: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.btn{
+    margin-top: 1.3rem;
+    padding: 0.8rem 2rem;
+    font-family:  "poppins", sans-serif;;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid #db4566;
+    cursor: pointer;
+}
+
+.btn-pink{
+    background-color: #db4566;
+}
+
+.btn-pink:hover{
+    background-color: transparent;
+    color: #db4566;
+}
+
+/* Navbar */
+
+.logo{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    background-color: #f9ece6;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
+}
+
+#navbar ul li a{
+    font-size: 1.1rem;
+    padding: 0.25rem 1rem;
+    margin-right: 1rem;
+}
+
+
+/* Showcase */
+
+#header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f89cab;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1.5rem 3rem;
+}
+
+.showcase-content {
+    color: white;
+    flex: 0 0 58%;
+}
+
+#header .container .showcase-content h2{
+    font-size: 3rem;
+
+}
+
+/* Products */
+
+#products .items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
