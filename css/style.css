@@ -51,6 +51,10 @@ ul{
 .bg-blue{
     background-color: #7fd7eb;
 }
+
+.bg-purple{
+    background-color: #6929a5;
+}
 .px-3{
     padding: 0 3rem;
 }
@@ -102,12 +106,25 @@ ul{
     margin-right: 1rem;
 }
 
+.btn-purple{
+    background-color: #9242dd;
+    border: 1px solid #9242dd;
+}
+
 /* Navbar */
 
 .logo{
     font-size: 1.8rem;
     text-align: center;
     padding: 1rem;
+    transform: translateY(-10rem);
+    animation: logo 1s forwards ease-in-out;
+}
+
+@keyframes logo {
+    to{
+        transform: translateX(0);
+    }
 }
 
 #navbar ul {
@@ -199,6 +216,95 @@ ul{
 }
 
 
-/* Section : Saving */
+/* section : shopping features */
+
+#shop-features .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#shop-features .container{
+    padding: 2rem;
+}
+
+#shop-features .items .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1 1 30%;
+    margin: 1rem;
+    background-color: #f9f8f7;
+    gap: 1rem;
+    border-radius:5px;
+}
+
+/* Section gift */
+
+#gift .gift-img{
+    flex: 1 1 100%;
+}
+
+#gift .gift-img img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.gift-info{
+    color: white;
+}
+
+.gift-info button{
+    margin-right: 1rem;
+}
 
 
+/* Section : Contact detials */
+
+#contact .contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map{
+    width: 50%;
+}
+
+#contact .contact-us .map img{
+    display: block;
+    margin: auto;
+    width: 55%;
+}
+
+#contact .contact-us .contact-details{
+        display: flex;
+        flex-direction: column;
+        flex: 50%;
+}
+
+
+#contact .contact-details .form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact input,textarea{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+input[type="submit"]{
+    width: 50%;
+}
+
+#footer{
+    text-align: center;
+    padding: 1rem;
+}
